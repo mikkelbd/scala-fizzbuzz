@@ -1,6 +1,6 @@
 *.DS_Store
 .idea
-.idea-modules
+.idea_modules
 target
 project/boot
 project/target
