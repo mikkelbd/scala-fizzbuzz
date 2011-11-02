@@ -1,9 +1,7 @@
-object FizzBuzz {
+object FizzBuzz extends App {
 
-  def main(args: Array[String]) {
-    println("FizzBuzz in Scala")
-    (0 to 100) foreach(x => println(fizzBuzz(x)))
-  }
+  println("FizzBuzz in Scala")
+  (0 to 100) foreach(x => println(fizzBuzz(x)))
 
   def fizzBuzz(num: Int) = (num % 3, num % 5) match {
     case (0, 0) => "FizzBuzz"
